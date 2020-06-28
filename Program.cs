@@ -1,52 +1,56 @@
 ﻿using System;
 
-namespace onthiCC
+namespace cau2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //CAU1
-            //cau1 bt1 = new cau1();
-            //bt1.BT1();
-            //cau1 bt3 = new cau1();
-            //bt3.BT3();
-            //cau1 bt5 = new cau1();
-            //bt5.BT5();
-            //cau1 bt7 = new cau1();
-            //bt7.BT7();
-            //cau1 bt9 = new cau1();
-            //bt9.BT9();
-            //cau1 bt11 = new cau1();
-            //bt11.BT11();
-            //cau1 bt13 = new cau1();
-            //bt13.BT13();
-            //cau1 bt15 = new cau1();
-            //bt15.BT15();
-            //cau1 bt17 = new cau1();
-            //bt17.BT17();
-            //cau1 bt19 = new cau1();
-            //bt19.BT19();
-            //cau1 bt21 = new cau1();
-            //bt21.BT21();
-            //cau1 bt23 = new cau1();
-            //bt23.BT23();
-            //cau1 bt25 = new cau1();
-            //bt25.BT25();
-            //cau1 bt27 = new cau1();
-            //bt27.BT27();
-            //cau1 bt29 = new cau1();
-            //bt29.BT29();
-            //cau1 bt31 = new cau1();
-            //bt31.BT31();
-            //cau1 bt33 = new cau1();
-            //bt33.BT33();
-            //cau1 bt35 = new cau1();
-            //bt35.BT35();
-            //cau1 bt37 = new cau1();
-            //bt37.BT37();
-            //cau1 bt39 = new cau1();
-            //bt39.BT39();
+            //Cau2 bt2 = new Cau2();
+            //bt2.BT2();
+
+            //Cau4 bt4 = new Cau4();
+            //bt4.BT4();
+
+            //Cau6 bt6 = new Cau6();
+            //bt6.BT6();
+
+            //Cau8 bt8 = new Cau8();
+            //bt8.BT8();
+
+            //Cau10 bt10 = new Cau10();
+            //bt10.BT10();
+
+            //Cau14 bt14 = new Cau14();
+            //bt14.BT14();
+
+            //Cau16 bt16 = new Cau16();
+            //bt16.BT16();
+
+            //Cau18 bt18 = new Cau18();
+            //bt18.BT18();
+
+            //Cau20 bt20 = new Cau20();
+            //bt20.BT20();
+
+            //Cau22 bt22 = new Cau22();
+            //bt22.BT22();
+
+            //string temp;
+            //temp = Console.ReadLine();
+            //char tem = temp[0];
+            //Cau24 kt = new Cau24();
+            //if (kt.kiemtraviethoa(tem))
+            //    Console.WriteLine("ky tu nhap vao la viet hoa");
+            //else
+            //    Console.WriteLine("Ky tu vua nhap vao la viet thuong");
+
+            //Cau28 bt28 = new Cau28();
+            //bt28.BT28();
+
+            Cau30 bt30 = new Cau30();
+            bt30.BT30();
+
         }
     }
 }
