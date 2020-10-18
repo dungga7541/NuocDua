@@ -3,9 +3,8 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 public class Cau7 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub				int dem=0;
 		try {
 			String path="E:/187IT20700/taptin.txt";
 			byte[] arr=null;
@@ -17,19 +16,17 @@ public class Cau7 {
 				String line =new String(arr);
 				System.out.println(line);
 				String[] mangChuoi=line.split(",");
-				double temp=0;
+				int temp=0;
 				double bien;
 				int dem=0;
 				for(int i=0;i<mangChuoi.length;i++) {
-					System.out.print(Integer.parseInt(mangChuoi[i].trim()));
-					if(Integer.parseInt(mangChuoi[i].trim())==1) {
+					temp=Integer.parseInt(mangChuoi[i]);
+					if(Integer.parseInt(mangChuoi[i])==1) {
 						System.out.println(Integer.parseInt(mangChuoi[i].trim())+ "là số nguyên tố");
 					}else {
-						System.out.println(temp);
-						
-						for(i=1;i<=temp;i++) {
-							if(temp%i==0) {
-								dem++;
+						for(int j=1;j<=temp;j++) {
+							if(temp%j==0) {
+								dem=dem+1;
 							}
 						}
 						if(dem==2) {
@@ -37,6 +34,8 @@ public class Cau7 {
 						}
 						else {
 							System.out.println(temp +"Không phải là số nguyên tố");
+						}if(dem!=0) {
+							dem=0;
 						}
 					}
 				}
